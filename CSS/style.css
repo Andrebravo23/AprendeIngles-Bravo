@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .resource-logo {
     width: 60px;
 }

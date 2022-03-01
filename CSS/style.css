@@ -2,6 +2,47 @@ body {
     overflow-x: hidden;
 }
 
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.index-banner {
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+        url(../assets/img/remote-learning.jfif) no-repeat center 80%;
+    background-size: cover;
+    color: white;
+}
+
+.contact-banner {
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+        url(../assets/img/contact-image.jpg) no-repeat center 80%;
+    background-size: cover;
+    color: white;
+    padding: 6rem 0;
+}
+
+i {
+    color: #1B93CE;
+}
+
+.card p, .card li, .description {
+    color: #555;
+}
+
+.bg-lightblue {
+    background: #f9fbff;
+}
+
+.form-label {
+    color: #555;
+}
+
+.resource-group-icon {
+    margin-bottom: .75rem;
+}
+
 .resource-logo {
     width: 60px;
 }

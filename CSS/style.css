@@ -27,15 +27,11 @@ i {
     color: #1B93CE;
 }
 
-.card p, .card li, .description {
-    color: #555;
-}
-
 .bg-lightblue {
     background: #f9fbff;
 }
 
-.form-label {
+.card p, .card li, .description, .form-label {
     color: #555;
 }
 

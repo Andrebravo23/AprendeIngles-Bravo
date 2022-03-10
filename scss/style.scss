@@ -1,0 +1,72 @@
+$description-color: #555;
+
+@function getImagePath($img) {
+    @return "../assets/img/" + $img; 
+}
+
+@mixin setBanner($img) {
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+        url(getImagePath($img));
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+.index-banner {
+    @include setBanner("remote-learning.jfif");
+    @extend %banner;
+}
+
+.contact-banner {
+    @include setBanner("contact-image.jpg");
+    padding: 6rem 0;
+    @extend %banner;
+}
+
+%banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 80%;
+    color: white;
+}
+
+.btn {
+    transition: all 0.1s ease-in;
+    &-primary:hover {
+        transform: scale(1.05);
+        background-color: white;
+        color: blue;
+    }
+    &-success:hover {
+        transform: scaleY(1.1);
+        background-color: white;
+        color: green;
+    }
+}
+
+i {
+    color: #1B93CE;
+}
+
+.bg-lightblue {
+    background: #f9fbff;
+}
+
+.card p, .card li, .description, .form-label {
+    color: $description-color;
+}
+
+.resource-group-icon {
+    margin-bottom: .75rem;
+}
+
+.resource-logo {
+    width: 60px;
+}

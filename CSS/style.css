@@ -1,44 +1,44 @@
 body {
-    overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
 * {
-    font-family: 'League Spartan', sans-serif;
-}
+  font-family: 'League Spartan', sans-serif; }
 
 .index-banner {
-    background:
-        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
-        url(../assets/img/remote-learning.jfif) no-repeat center 80%;
-    background-size: cover;
-    color: white;
-}
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../assets/img/remote-learning.jfif"); }
 
 .contact-banner {
-    background:
-        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
-        url(../assets/img/contact-image.jpg) no-repeat center 80%;
-    background-size: cover;
-    color: white;
-    padding: 6rem 0;
-}
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../assets/img/contact-image.jpg");
+  padding: 6rem 0; }
+
+.index-banner, .contact-banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 80%;
+  color: white; }
+
+.btn {
+  transition: all 0.1s ease-in; }
+  .btn-primary:hover {
+    transform: scale(1.05);
+    background-color: white;
+    color: blue; }
+  .btn-success:hover {
+    transform: scaleY(1.1);
+    background-color: white;
+    color: green; }
 
 i {
-    color: #1B93CE;
-}
+  color: #1B93CE; }
 
 .bg-lightblue {
-    background: #f9fbff;
-}
+  background: #f9fbff; }
 
 .card p, .card li, .description, .form-label {
-    color: #555;
-}
+  color: #555; }
 
 .resource-group-icon {
-    margin-bottom: .75rem;
-}
+  margin-bottom: .75rem; }
 
 .resource-logo {
-    width: 60px;
-}
+  width: 60px; }

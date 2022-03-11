@@ -1,3 +1,5 @@
+$primary-color: #1B93CE;
+$light-color: #f9fbff;
 $description-color: #555;
 
 @function getImagePath($img) {
@@ -52,11 +54,11 @@ body {
 }
 
 i {
-    color: #1B93CE;
+    color: $primary-color;
 }
 
 .bg-lightblue {
-    background: #f9fbff;
+    background: $light-color;
 }
 
 .card p, .card li, .description, .form-label {

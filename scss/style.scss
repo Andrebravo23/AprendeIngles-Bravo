@@ -4,6 +4,7 @@ $light-color: #f9fbff;
 $description-color: #555;
 $icon-color: #4E51F9;
 
+$font-family-sans-serif: 'League Spartan', sans-serif;
 $primary: $custom-primary;
 $success: $custom-success;
 
@@ -22,11 +23,6 @@ $success: $custom-success;
 body {
     overflow-x: hidden;
 }
-
-* {
-    font-family: 'League Spartan', sans-serif;
-}
-
 
 .index-banner {
     @include setBanner("remote-learning.jfif");

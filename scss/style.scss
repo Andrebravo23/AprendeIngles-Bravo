@@ -1,6 +1,13 @@
-$primary-color: #1B93CE;
+$custom-primary: #393CF9;
+$custom-success: #358F80;
 $light-color: #f9fbff;
 $description-color: #555;
+$icon-color: #4E51F9;
+
+$primary: $custom-primary;
+$success: $custom-success;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 @function getImagePath($img) {
     @return "../assets/img/" + $img; 
@@ -41,20 +48,25 @@ body {
 
 .btn {
     transition: all 0.1s ease-in;
-    &-primary:hover {
-        transform: scale(1.05);
-        background-color: white;
-        color: blue;
+    color: white;
+    &-primary {
+        &:hover {
+            transform: scale(1.05);
+            background-color: white;
+            color: $primary;
+        }
     }
-    &-success:hover {
-        transform: scaleY(1.1);
-        background-color: white;
-        color: green;
+    &-success {
+        &:hover {
+            transform: scaleY(1.1);
+            background-color: white;
+            color: $success;
+        }
     }
 }
 
 i {
-    color: $primary-color;
+    color: $icon-color;
 }
 
 .bg-lightblue {

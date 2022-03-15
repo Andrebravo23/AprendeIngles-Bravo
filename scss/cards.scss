@@ -1,0 +1,11 @@
+i {
+    color: map-get($custom-colors, icon);
+}
+
+.bg-lightblue {
+    background: map-get($custom-colors, light);
+}
+
+.card p, .card li, .description, .form-label {
+    color: map-get($custom-colors, description);
+}

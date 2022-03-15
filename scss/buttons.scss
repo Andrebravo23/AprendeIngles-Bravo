@@ -1,0 +1,18 @@
+.btn {
+    transition: all 0.1s ease-in;
+    color: white;
+    &-primary {
+        &:hover {
+            transform: scale(1.05);
+            background-color: white;
+            color: map-get($custom-colors, primary);
+        }
+    }
+    &-success {
+        &:hover {
+            transform: scaleY(1.1);
+            background-color: white;
+            color: map-get($custom-colors, success);
+        }
+    }
+}

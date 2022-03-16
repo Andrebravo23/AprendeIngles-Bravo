@@ -1,4 +1,5 @@
 # Sobre Aprende-Ingles.com
+Lee la información importante sobre este proyecto.
 
 ## ¿De qué trata este proyecto?
 Aprende-ingles es un proyecto desarrollado como parte del curso de Desarrollo Web de Coderhouse. El objetivo de esta web es el de poder ofrecer, a la comunidad hispanohablante, una manera fácil de aprender inglés desde la comodidad de sus hogares, sin necesidad de establecer un horario que consuma su energía y que esté disponible los 7 días de la semana.
@@ -6,9 +7,7 @@ Aprende-ingles es un proyecto desarrollado como parte del curso de Desarrollo We
 ## ¿Por qué es útil?
 Mediante este proyecto se busca incentivar y facilitar el aprendizaje del idioma inglés en los países hispanohablantes. Siendo el inglés el idioma más importante en la actualidad, la promoción del aprendizaje de este idioma podría ser ampliamente favorable para la comunidad, contribuyendo a la formación de mayores oportunidades.
 
-
-
-###### Modificaciones para la aplicación del SEO:
+## Modificaciones para la aplicación del SEO:
 1. Títulos modificados en todas las páginas del sitio:
 Todas las páginas solían compartir el mismo título: "Aprende-Inglés". Actualmente cada página cuenta con un título distinto, el cual describe qué contenido se puede encontrar en cada página del sitio. Los nuevos títulos son los siguientes:
     - index.html: Aprende Inglés - Lecciones de inglés gratis a tu propio ritmo

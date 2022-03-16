@@ -18,7 +18,7 @@ Todas las páginas solían compartir el mismo título: "Aprende-Inglés". Actual
 2. Etiquetas *meta* para describir las páginas:
 Se utilizaron etiquetas *meta* con el valor de *description* en el atributo *name* para poder proveer una descripción a cada página del sitio. Las descripciones son las siguientes:
     - index.html: Aprende inglés desde casa con nuestras lecciones 100% gratuitas, sin membresías, sin contenido exclusivo. Nuestras lecciones están disponibles para ti 24/7.
-    - about.html: aprende-ingles.com es un proyecto que se plantea ayudar a miles de hispanohablantes a desarrollar y/o perfeccionar su habilidades comunicativas en el idioma inglés. Entérate cuáles son nuestros valores y objetivos.
+    - about.html: aprende-ingles.com es un proyecto que se plantea ayudar a miles de hispanohablantes a desarrollar y/o perfeccionar su habilidades comunicativas en el idioma inglés. Entérate de cuáles son nuestros valores y objetivos.
     - contact.html: Escuchamos tus sugerencias y estamos pendientes a tus quejas, envíanos un mensaje para reportar errores, recomendar contenido o realizar alguna sugerencia para mejorar el curso.
     - resources.html: Revisa nuestra lista de sitios, apps y podcasts recomendados para continuar o reforzar tu aprendizaje de una manera dinámica y divertida.
     - learn.html: Lecciones de inglés gratuitas con aprende-ingles.com, ¿en qué nivel empezarás? Elige una unidad según tu nivel de inglés.
@@ -30,4 +30,4 @@ Se utilizaron etiquetas *meta* con el valor de *keywords* en el atributo *name* 
     - resources.html: aprender ingles, apps para aprender ingles, paginas para aprender ingles, podcasts en ingles, ingles con musica, hablar en ingles, ingles online, ingles gratis
     - learn.html: ingles basico, ingles gratis, ingles online, ingles intermedio, ingles avanzado, lecciones de ingles, clases ingles, niveles de ingles
 4. Uso adecuado de *headings*:
-Todas las páginas cuentan con un *heading h1* cuyo contenido engloba el contenido de la página en general. Otros *headings* de menor importancia semántica (*h2* a *h6*), son utilizados no por el estilo que presentan o por el tamaño del texto contenido, sino por el valor semántico que proveen.
+Todas las páginas cuentan con un *heading h1* cuyo contenido engloba el de la página en general. Otros *headings* de menor importancia semántica (*h2* a *h6*), son utilizados no por el estilo que presentan o por el tamaño del texto contenido, sino por el valor semántico que estos proveen.

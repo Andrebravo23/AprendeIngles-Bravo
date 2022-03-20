@@ -1,7 +1,7 @@
 {
-  "name": "bootstrapaprendeingles-bravo",
+  "name": "aprendeingles-bravo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto de CoderHouse, una página para aprender inglés de manera gratuita.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Andrebravo23/AprendeIngles-Bravo.git"
   },
-  "author": "",
+  "author": "Harold Bravo <hbravo798@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Andrebravo23/AprendeIngles-Bravo/issues"
@@ -24,6 +24,7 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "purgecss": "*"
   }
 }

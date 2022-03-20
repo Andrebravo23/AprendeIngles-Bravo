@@ -1567,10 +1567,10 @@ body {
   overflow-x: hidden; }
 
 .index-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../assets/img/remote-learning.jfif"); }
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../assets/img/banners/remote-learning.jpg"); }
 
 .contact-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../assets/img/contact-image.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../assets/img/banners/contact-image.jpg");
   padding: 6rem 0; }
 
 .index-banner, .contact-banner {

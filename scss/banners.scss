@@ -1,5 +1,5 @@
 @function getImagePath($img) {
-    @return "../assets/img/" + $img; 
+    @return "../assets/img/banners/" + $img; 
 }
 
 @mixin setBanner($img) {
@@ -13,7 +13,7 @@ body {
 }
 
 .index-banner {
-    @include setBanner("remote-learning.jfif");
+    @include setBanner("remote-learning.jpg");
     @extend %banner;
 }
 

@@ -1,7 +1,9 @@
-.resource-group-icon {
-    margin-bottom: .75rem;
-}
-
-.resource-logo {
-    width: 60px;
+.resource {
+    &-group-icon {
+        margin-bottom: .75rem;
+    }
+    
+    &-logo {
+        width: 60px;
+    }    
 }

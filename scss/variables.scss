@@ -1,4 +1,4 @@
-$custom-colors: ("primary": #393CF9, "success": #358F80, "description": #555, "icon": #4E51F9, "light": #f9fbff);
+$custom-colors: ("primary": #393CF9, "success": #358F80, "description": #555, "icon": #4E51F9, "light": #f9fbff, "highlight": yellow);
 $font-family-sans-serif: 'League Spartan', sans-serif;
 $primary: map-get($custom-colors, primary);
 $success: map-get($custom-colors, success);

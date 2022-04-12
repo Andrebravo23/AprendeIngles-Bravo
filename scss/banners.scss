@@ -15,6 +15,9 @@ body {
 .index-banner {
     @include setBanner("remote-learning.jpg");
     @extend %banner;
+    span {
+        color: map-get($custom-colors, highlight);
+    }
 }
 
 .contact-banner {

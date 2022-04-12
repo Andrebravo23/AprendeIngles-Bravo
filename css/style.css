@@ -304,12 +304,11 @@ textarea {
   font: inherit;
   -webkit-appearance: button; }
 
+iframe {
+  border: 0; }
+
 [hidden] {
   display: none !important; }
-
-.img-fluid {
-  max-width: 100%;
-  height: auto; }
 
 .container,
 .container-fluid {
@@ -1387,6 +1386,9 @@ textarea.form-control {
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
 
+.border {
+  border: 1px solid #dee2e6 !important; }
+
 .w-50 {
   width: 50% !important; }
 
@@ -1451,9 +1453,6 @@ textarea.form-control {
 .p-4 {
   padding: 1.5rem !important; }
 
-.p-5 {
-  padding: 3rem !important; }
-
 .px-2 {
   padding-right: 0.5rem !important;
   padding-left: 0.5rem !important; }
@@ -1461,6 +1460,10 @@ textarea.form-control {
 .px-3 {
   padding-right: 1rem !important;
   padding-left: 1rem !important; }
+
+.px-4 {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important; }
 
 .py-2 {
   padding-top: 0.5rem !important;
@@ -1500,9 +1503,6 @@ textarea.form-control {
 /* rtl:begin:remove */
 
 /* rtl:end:remove */
-.text-primary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; }
 
 .text-white {
   --bs-text-opacity: 1;
@@ -1511,10 +1511,6 @@ textarea.form-control {
 .text-reset {
   --bs-text-opacity: 1;
   color: inherit !important; }
-
-.bg-light {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important; }
 
 .bg-dark {
   --bs-bg-opacity: 1;
@@ -1555,6 +1551,8 @@ textarea.form-control {
     padding-left: 3rem !important; }
   .pt-lg-0 {
     padding-top: 0 !important; }
+  .pt-lg-5 {
+    padding-top: 3rem !important; }
   .text-lg-start {
     text-align: left !important; } }
 
@@ -1568,6 +1566,8 @@ body {
 
 .index-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../assets/img/banners/remote-learning.jpg"); }
+  .index-banner span {
+    color: yellow; }
 
 .contact-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../assets/img/banners/contact-image.jpg");
@@ -1600,8 +1600,94 @@ i {
 .card p, .card li, .description, .form-label {
   color: #555; }
 
+.map-container {
+  overflow: hidden;
+  height: auto; }
+  .map-container iframe {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    min-height: 350px; }
+
 .resource-group-icon {
   margin-bottom: .75rem; }
 
 .resource-logo {
   width: 60px; }
+
+.custom-header {
+  padding: 8px 16px; }
+
+.custom-logo {
+  display: inline-block;
+  padding: 9px 0 0 12px; }
+
+.custom-nav-title {
+  display: none;
+  margin-top: 16px;
+  text-align: center;
+  text-decoration: underline;
+  color: #6C63FF; }
+
+.custom-linkset {
+  list-style: none;
+  float: right;
+  padding: 0 8px 0 0;
+  margin: 0;
+  vertical-align: middle; }
+
+.custom-navItem {
+  display: inline-block;
+  padding: 8px 12px; }
+
+.custom-navlink {
+  text-decoration: none;
+  color: #999;
+  transition: color 0.25s ease-in 0s; }
+  .custom-navlink:hover {
+    color: #444; }
+
+.custom-active {
+  color: #333; }
+
+.custom-hero {
+  clear: both;
+  text-align: center;
+  padding: 64px 0 64px 0; }
+
+.custom-container {
+  text-align: center;
+  max-width: 1024px;
+  margin: 0 auto 48px auto;
+  padding: 48px;
+  background: #F8F9FA; }
+  .custom-container img {
+    padding-bottom: 48px;
+    width: 90%;
+    height: auto; }
+
+.custom-footer {
+  padding: 28px;
+  background: #212529;
+  color: white;
+  text-align: center; }
+  .custom-footer .custom-linkset {
+    float: none;
+    margin-bottom: 16px; }
+  .custom-footer .custom-navlink:hover {
+    color: #ccc; }
+  .custom-footer .custom-active {
+    color: #fff; }
+
+@media screen and (max-width: 795px) {
+  .custom-nav-title {
+    display: block; }
+  .custom-linkset {
+    float: none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.02), 0px 2px 2px rgba(0, 0, 0, 0.012), 0px 4px 4px rgba(0, 0, 0, 0.01), 0px 8px 8px rgba(0, 0, 0, 0.008); }
+  .custom-navItem {
+    display: block;
+    text-align: center; }
+  .custom-container {
+    max-width: 512px; } }

@@ -1,0 +1,105 @@
+.custom {
+    &-header {
+        padding: 8px 16px;
+    }
+    
+    &-logo {
+        display: inline-block;
+        padding: 9px 0 0 12px;
+    }
+
+    &-nav-title {
+        display: none;
+        margin-top: 16px;
+        text-align: center;
+        text-decoration: underline;
+        color: #6C63FF;
+    }
+
+    &-linkset {
+        list-style: none;
+        float: right;
+        padding: 0 8px 0 0;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    &-navItem {
+        display: inline-block;
+        padding: 8px 12px;
+    }
+    
+    &-navlink {
+        text-decoration: none;
+        color: #999;
+        transition: color 0.25s ease-in 0s;
+        &:hover {
+            color: #444;
+        }
+    }
+    
+    &-active {
+        color: #333;
+    }
+
+    &-hero {
+        clear: both;
+        text-align: center;
+        padding: 64px 0 64px 0;
+    }
+
+    &-container {
+        text-align: center;
+        max-width: 1024px;
+        margin: 0 auto 48px auto;
+        padding: 48px;
+        background: #F8F9FA;
+        & img {
+            padding-bottom: 48px;
+            width: 90%;
+            height: auto;
+        }
+    }
+
+    &-footer {
+        padding: 28px;
+        background: #212529;
+        color: white;
+        text-align: center;
+        & .custom-linkset {
+            float: none;
+            margin-bottom: 16px;
+        }
+        & .custom-navlink {
+            &:hover {
+                color: #ccc;
+            }
+        }
+        & .custom-active {
+            color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .custom-nav-title {
+        display: block;
+    }
+
+    .custom-linkset {
+        float: none;
+        box-shadow: 0px 1px 1px rgba(0,0,0,0.02),
+                    0px 2px 2px rgba(0,0,0,0.012),
+                    0px 4px 4px rgba(0,0,0,0.010),
+                    0px 8px 8px rgba(0,0,0,0.008);
+    }
+
+    .custom-navItem {
+        display: block;
+        text-align: center;
+    }
+    
+    .custom-container {
+        max-width: 512px;
+    }
+}

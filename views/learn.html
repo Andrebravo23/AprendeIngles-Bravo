@@ -14,83 +14,43 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light px-sm-3 bg-white">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="../assets/img/logos/logo.svg" alt="Logo de aprende-ingles.com" height="24">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"  aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <img class="offcanvas-title" id="offcanvasNavbarLabel" src="../assets/img/logos/logo.svg" alt="Logo de aprende-ingles.com" height="24">
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1">
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link active" aria-current="page" href="#">Aprende Inglés</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="about.html">Sobre nosotros</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="contact.html">Contáctanos</a>
-                            </li>
-                            <li class="nav-item ps-2">
-                                <a class="nav-link" href="resources.html">Recursos</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <header class="custom-header">
+        <nav>
+            <a class="custom-logo" href="../index.html">
+                <img src="../assets/img/logos/logo.svg" alt="Logo de aprende-ingles.com" height="24">
+            </a>
+            <h6 class="custom-nav-title">Navegación</h6>
+            <ul class="custom-linkset">
+                <li class="custom-navItem"><a class="custom-navlink" href="../index.html">Inicio</a></li>
+                <li class="custom-navItem"><a class="custom-navlink custom-active" href="learn.html">Aprende Inglés</a></li>
+                <li class="custom-navItem"><a class="custom-navlink" href="about.html">Sobre Nosotros</a></li>
+                <li class="custom-navItem"><a class="custom-navlink" href="contact.html">Contáctanos</a></li>
+                <li class="custom-navItem"><a class="custom-navlink" href="resources.html">Recursos</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section class="container-fluid">
-        <div class="row py-5 text-center">
-            <h1 class="pt-3">Las lecciones de inglés están en construcción.</h1>
-            <p class="pb-3">Estamos preparando el mejor método de aprendizaje para ti.</p>
-        </div>
+    <section class="custom-hero">
+        <h1>Las lecciones de inglés están en construcción.</h1>
+        <p>Estamos preparando el mejor método de aprendizaje para ti.</p>
     </section>
 
-    <section class="container mb-5">
-        <div class="row">
-            <div class="bg-light text-center p-5">
-                <img class="img-fluid pb-5" src="../assets/img/svg/building-website.svg" alt="Dibujo de programadores construyendo una página web">
-                <h3>Estamos construyendo, sentimos los inconvenientes.</h3>
-            </div>
-        </div>
+    <section class="custom-container">
+        <img src="../assets/img/svg/building-website.svg" alt="Dibujo de programadores construyendo una página web">
+        <h3>Estamos construyendo, sentimos los inconvenientes.</h3>
     </section>
 
-    <footer class="container-fluid bg-dark text-white">
-        <div class="row p-4 text-center">
-            <nav class="navbar navbar-dark justify-content-center">
-                <ul class="navbar-nav flex-column flex-md-row">
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link active" aria-current="page" href="#">Aprende Inglés</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="about.html">Sobre nosotros</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="contact.html">Contáctanos</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="resources.html">Recursos</a>
-                    </li>
-                </ul>
-            </nav>
-            <h6 class="py-2 mb-0">aprende-ingles.com, tus clases gratuitas de inglés</h6>
-        </div>
+    <footer class="custom-footer">
+        <nav>
+            <ul class="custom-linkset">
+                <li class="custom-navItem"><a class="custom-navlink" href="../index.html">Inicio</a></li>
+                <li class="custom-navItem"><a class="custom-navlink custom-active" href="learn.html">Aprende Inglés</a></li>
+                <li class="custom-navItem"><a class="custom-navlink" href="about.html">Sobre Nosotros</a></li>
+                <li class="custom-navItem"><a class="custom-navlink" href="contact.html">Contáctanos</a></li>
+                <li class="custom-navItem"><a class="custom-navlink" href="resources.html">Recursos</a></li>
+            </ul>
+        </nav> 
+        <h6>aprende-ingles.com, tus clases gratuitas de inglés</h6>
     </footer>
     
     <script src="../js/bootstrap.bundle.min.js"></script>
